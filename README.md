@@ -8,10 +8,6 @@ I like building things that work at scale — systems where the software has rea
 
 ### Interactive CV
 
-<a href="https://davencode-dev.github.io/cv/" target="_blank">
-  <img src="cv-preview.png" alt="Interactive CV — davencode-dev.github.io/cv" width="100%" />
-</a>
-
 <p align="center">
   <a href="https://davencode-dev.github.io/cv/">
     <img src="https://img.shields.io/badge/View_Interactive_CV_→-111111?style=for-the-badge&logo=github&logoColor=white" />
