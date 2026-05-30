@@ -10,8 +10,8 @@ I like building things that work at scale — systems where the software has rea
 
 <a href="https://davencode-dev.github.io/cv/" target="_blank">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.microlink.io/?url=https%3A%2F%2Fdavencode-dev.github.io%2Fcv%2F&screenshot=true&meta=false&embed=screenshot.url&colorScheme=dark&type=png" />
-    <img src="https://api.microlink.io/?url=https%3A%2F%2Fdavencode-dev.github.io%2Fcv%2F&screenshot=true&meta=false&embed=screenshot.url&type=png" alt="Interactive CV — davencode-dev.github.io/cv" width="100%" style="border-radius:8px" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.microlink.io/?url=https%3A%2F%2Fdavencode-dev.github.io%2Fcv%2F&screenshot=true&meta=false&embed=screenshot.url&colorScheme=dark&type=png&waitFor=2500&force=true" />
+    <img src="https://api.microlink.io/?url=https%3A%2F%2Fdavencode-dev.github.io%2Fcv%2F&screenshot=true&meta=false&embed=screenshot.url&type=png&waitFor=2500&force=true" alt="Interactive CV — davencode-dev.github.io/cv" width="100%" style="border-radius:8px" />
   </picture>
 </a>
 
