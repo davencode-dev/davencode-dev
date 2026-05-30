@@ -2,6 +2,8 @@
 
 Senior Software Engineer · Cloud Team Lead · Valencia, ES
 
+I like building things that work at scale — systems where the software has real consequences in the physical world. I'm drawn to hard problems, clean architecture, and teams that care about the craft.
+
 ---
 
 ### Stack
