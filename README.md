@@ -6,6 +6,23 @@ I like building things that work at scale — systems where the software has rea
 
 ---
 
+### Interactive CV
+
+<a href="https://davencode-dev.github.io/cv/" target="_blank">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.microlink.io/?url=https%3A%2F%2Fdavencode-dev.github.io%2Fcv%2F&screenshot=true&meta=false&embed=screenshot.url&colorScheme=dark&type=png" />
+    <img src="https://api.microlink.io/?url=https%3A%2F%2Fdavencode-dev.github.io%2Fcv%2F&screenshot=true&meta=false&embed=screenshot.url&type=png" alt="Interactive CV — davencode-dev.github.io/cv" width="100%" style="border-radius:8px" />
+  </picture>
+</a>
+
+<p align="center">
+  <a href="https://davencode-dev.github.io/cv/">
+    <img src="https://img.shields.io/badge/View_Interactive_CV_→-111111?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+---
+
 ### Stack
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -40,5 +57,4 @@ Co-inventor on 8 granted international patents — printing calibration, fluidic
 ### Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-daventor-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daventor/)
-[![CV](https://img.shields.io/badge/Interactive_CV-↗-111111?style=flat-square&logo=github&logoColor=white)](https://davencode-dev.github.io/cv/)
 [![Email](https://img.shields.io/badge/Email-daventorn@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:daventorn@gmail.com)
