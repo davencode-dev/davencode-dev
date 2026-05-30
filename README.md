@@ -19,12 +19,11 @@ Senior Software Engineer · Cloud Team Lead · Valencia, ES
 
 ---
 
-### GitHub
+### Activity
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=davencode-dev&show_icons=true&theme=graywhite&hide_border=true&count_private=true&hide_title=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=davencode-dev&layout=compact&theme=graywhite&hide_border=true&count_private=true" height="150" />
-</p>
+![Contribution graph](https://github-contribution-stats.vercel.app/api/?username=davencode-dev)
+
+[![Profile views](https://komarev.com/ghpvc/?username=davencode-dev&style=flat-square&color=grey)](https://github.com/davencode-dev)
 
 ---
 
