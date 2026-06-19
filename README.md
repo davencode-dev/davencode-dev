@@ -33,7 +33,7 @@ I like building things that work at scale — systems where the software has rea
 
 ### Activity
 
-![Contribution graph](https://github-contribution-stats.vercel.app/api/?username=davencode-dev)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=davencode-dev&show_icons=true&hide_border=true&theme=dark)
 
 [![Profile views](https://komarev.com/ghpvc/?username=davencode-dev&style=flat-square&color=grey)](https://github.com/davencode-dev)
 
