@@ -8,7 +8,7 @@ I like building things that work at scale — systems where the software has rea
 
 ### Interactive CV
 
-[![🚀 VIEW INTERACTIVE CV →](https://img.shields.io/badge/🚀%20VIEW%20INTERACTIVE%20CV%20%E2%86%92-0d1117?style=for-the-badge&labelColor=58a6ff&color=0d1117&logoColor=white&logo=github&logoWidth=20)](https://davencode-dev.github.io/cv/)
+[![VIEW INTERACTIVE CV](https://raw.githubusercontent.com/davencode-dev/davencode-dev/main/cv-button.svg)](https://davencode-dev.github.io/cv/)
 
 ---
 
