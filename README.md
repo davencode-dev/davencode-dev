@@ -8,7 +8,11 @@ I like building things that work at scale — systems where the software has rea
 
 ### Interactive CV
 
+<div align="center">
+
 [![VIEW INTERACTIVE CV](https://raw.githubusercontent.com/davencode-dev/davencode-dev/main/cv-button.svg)](https://davencode-dev.github.io/cv/)
+
+</div>
 
 ---
 
