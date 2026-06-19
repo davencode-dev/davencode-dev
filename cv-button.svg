@@ -1,67 +1,59 @@
 <svg width="420" height="60" viewBox="0 0 420 60" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-          <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stop-color="#0d1117"/>
-                  <stop offset="30%" stop-color="#1a1f35"/>
-                  <stop offset="60%" stop-color="#0d1117"/>
-                  <stop offset="100%" stop-color="#161b22"/>
-                  <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="3s" repeatCount="indefinite"/>
-          </linearGradient>
-          <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
-                  <stop offset="45%" stop-color="rgba(255,255,255,0)"/>
-                  <stop offset="50%" stop-color="rgba(255,255,255,0.08)"/>
-                  <stop offset="55%" stop-color="rgba(255,255,255,0)"/>
-                  <stop offset="100%" stop-color="rgba(255,255,255,0)">
-                            <animate attributeName="stop-color" values="rgba(255,255,255,0);rgba(255,255,255,0)" dur="2.5s" repeatCount="indefinite"/>
-                  </stop>
-                  <animateTransform attributeName="gradientTransform" type="translate" from="-2 0" to="2 0" dur="2.5s" repeatCount="indefinite"/>
-          </linearGradient>
-          <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#58a6ff"/>
-                  <stop offset="50%" stop-color="#a371f7"/>
-                  <stop offset="100%" stop-color="#58a6ff">
-                            <animate attributeName="stop-color" values="#58a6ff;#f78166;#a371f7;#58a6ff" dur="4s" repeatCount="indefinite"/>
-                  </stop>
-                  <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="4s" repeatCount="indefinite"/>
-          </linearGradient>
-          <filter id="glow">
-                  <feGaussianBlur stdDeviation="2" result="blur"/>
-                  <feMerge>
-                            <feMergeNode in="blur"/>
-                            <feMergeNode in="SourceGraphic"/>
-                  </feMerge>
-          </filter>
-    </defs>
+      <defs>
+              <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#0d1117"/>
+                        <stop offset="30%" stop-color="#1a1f35"/>
+                        <stop offset="60%" stop-color="#0d1117"/>
+                        <stop offset="100%" stop-color="#161b22"/>
+                        <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="3s" repeatCount="indefinite"/>
+              </linearGradient>
+              <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+                        <stop offset="45%" stop-color="rgba(255,255,255,0)"/>
+                        <stop offset="50%" stop-color="rgba(255,255,255,0.08)"/>
+                        <stop offset="55%" stop-color="rgba(255,255,255,0)"/>
+                        <stop offset="100%" stop-color="rgba(255,255,255,0)">
+                                    <animate attributeName="stop-color" values="rgba(255,255,255,0);rgba(255,255,255,0)" dur="2.5s" repeatCount="indefinite"/>
+                        </stop>
+                        <animateTransform attributeName="gradientTransform" type="translate" from="-2 0" to="2 0" dur="2.5s" repeatCount="indefinite"/>
+              </linearGradient>
+              <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#58a6ff"/>
+                        <stop offset="50%" stop-color="#a371f7"/>
+                        <stop offset="100%" stop-color="#58a6ff">
+                                    <animate attributeName="stop-color" values="#58a6ff;#f78166;#a371f7;#58a6ff" dur="4s" repeatCount="indefinite"/>
+                        </stop>
+                        <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="4s" repeatCount="indefinite"/>
+              </linearGradient>
+              <filter id="glow">
+                        <feGaussianBlur stdDeviation="2" result="blur"/>
+                        <feMerge>
+                                    <feMergeNode in="blur"/>
+                                    <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+              </filter>
+      </defs>
 
-    <!-- Animated glowing border -->
-    <rect x="1" y="1" width="418" height="58" rx="8" ry="8" fill="none" stroke="url(#borderGrad)" stroke-width="2" filter="url(#glow)" opacity="0.9"/>
+      <!-- Glowing border -->
+      <rect x="1" y="1" width="418" height="58" rx="8" ry="8" fill="none" stroke="url(#borderGrad)" stroke-width="2" filter="url(#glow)" opacity="0.9"/>
+      <!-- Background -->
+      <rect x="2" y="2" width="416" height="56" rx="7" ry="7" fill="url(#grad)"/>
+      <!-- Shimmer -->
+      <rect x="2" y="2" width="416" height="56" rx="7" ry="7" fill="url(#shimmer)"/>
 
-    <!-- Background -->
-    <rect x="2" y="2" width="416" height="56" rx="7" ry="7" fill="url(#grad)"/>
-
-    <!-- Shimmer overlay -->
-    <rect x="2" y="2" width="416" height="56" rx="7" ry="7" fill="url(#shimmer)"/>
-
-    <!-- GitHub icon circle accent -->
-    <circle cx="38" cy="30" r="16" fill="#58a6ff" opacity="0.15"/>
-    <circle cx="38" cy="30" r="14" fill="#1d4ed8" opacity="0.3"/>
-
-    <!-- GitHub logo path (simplified) -->
-    <g transform="translate(25, 17) scale(1.1)" fill="#58a6ff">
-          <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
-    </g>
-
-    <!-- Rocket emoji text -->
-    <text x="72" y="34" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif" font-size="18" fill="white">🚀</text>
-
-    <!-- Main label text -->
-    <text x="100" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="white" opacity="0.95">VIEW INTERACTIVE CV</text>
-
-    <!-- Arrow with animation -->
-    <text x="353" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#58a6ff">
-          →
-          <animate attributeName="fill" values="#58a6ff;#a371f7;#f78166;#58a6ff" dur="4s" repeatCount="indefinite"/>
-          <animateTransform attributeName="transform" type="translate" values="0 0; 4 0; 0 0" dur="1.5s" repeatCount="indefinite"/>
-    </text>
+      <!-- Centered group: icon(24) + gap(10) + text(~192) + gap(10) + arrow(14) = 250px, offset = (420-250)/2 = 85 -->
+      <g transform="translate(85, 0)">
+              <!-- GitHub icon, vertically centered at y=18 (24px tall) -->
+              <g transform="translate(0, 18)" fill="#58a6ff">
+                        <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+              </g>
+              <!-- Text, baseline at y=35, starts at x=34 (24+10) -->
+              <text x="34" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="white" opacity="0.95">VIEW INTERACTIVE CV</text>
+              <!-- Arrow at x=236 (34+192+10), animated -->
+              <text x="236" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#58a6ff">
+                        →
+                        <animate attributeName="fill" values="#58a6ff;#a371f7;#f78166;#58a6ff" dur="4s" repeatCount="indefinite"/>
+                        <animateTransform attributeName="transform" type="translate" values="0 0; 4 0; 0 0" dur="1.5s" repeatCount="indefinite"/>
+              </text>
+      </g>
 </svg>
